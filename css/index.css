@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+@import "./main.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  font-family: 'Jost', sans-serif;
+  background-color: #2B2C3A;
+  font-size: 14px;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+#root {
+  --color-white: #fff;
+  --color-blue: #6F6EFF;
+  --color-dark-gray: #9CA5EC0A;
+  --color-light-gray: #D8D8D8;
+
+}
+
+.app {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  height: 810px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6F6EFF;
+  border-radius: 1ex;
+  box-shadow: 0px 0px 12px rgba(111, 110, 255, 0.5);
+  -webkit-border-radius: 1ex;
+  -webkit-box-shadow: rgba(111, 110, 255, 0.5);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent
+}
